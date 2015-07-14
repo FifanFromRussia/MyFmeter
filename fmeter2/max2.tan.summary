@@ -1,0 +1,76 @@
+--------------------------------------------------------------------------------------
+Timing Analyzer Summary
+--------------------------------------------------------------------------------------
+
+Type           : Worst-case tsu
+Slack          : N/A
+Required Time  : None
+Actual Time    : 23.000 ns
+From           : key[0]
+To             : lpm_counter:inst27|dffs[1]
+From Clock     : --
+To Clock       : pt_right
+Failed Paths   : 0
+
+Type           : Worst-case tco
+Slack          : N/A
+Required Time  : None
+Actual Time    : 21.800 ns
+From           : lpm_dff:inst15|dffs[14]
+To             : f0[9]
+From Clock     : pt_right
+To Clock       : --
+Failed Paths   : 0
+
+Type           : Worst-case tpd
+Slack          : N/A
+Required Time  : None
+Actual Time    : 10.000 ns
+From           : dp
+To             : led[7]
+From Clock     : --
+To Clock       : --
+Failed Paths   : 0
+
+Type           : Worst-case th
+Slack          : N/A
+Required Time  : None
+Actual Time    : -2.000 ns
+From           : key[0]
+To             : inst10
+From Clock     : --
+To Clock       : pt_right
+Failed Paths   : 0
+
+Type           : Clock Setup: 'pt_right'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 38.46 MHz ( period = 26.000 ns )
+From           : lpm_counter:inst42|dffs[2]
+To             : lpm_counter:inst27|dffs[1]
+From Clock     : pt_right
+To Clock       : pt_right
+Failed Paths   : 0
+
+Type           : Clock Setup: 'dp'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 100.00 MHz ( period = 10.000 ns )
+From           : inst36
+To             : inst36
+From Clock     : dp
+To Clock       : dp
+Failed Paths   : 0
+
+Type           : Total number of failed paths
+Slack          : 
+Required Time  : 
+Actual Time    : 
+From           : 
+To             : 
+From Clock     : 
+To Clock       : 
+Failed Paths   : 0
+
+--------------------------------------------------------------------------------------
+
