@@ -1,5 +1,4 @@
-Частотомер
-Создан по подобию частотомера с сайта http://marsohod.org/index.php/projects/plata1/104-fmeter и
+Частотомер создан по подобию частотомера с сайта http://marsohod.org/index.php/projects/plata1/104-fmeter и
 http://marsohod.org/index.php/projects/plata1/122-fmeter2. Изменена ПЛИС на EPM7128SLC84.
 В папке fmeter2 находится поект для данной плис на Quartus'е.
 Файл max2.pof в этой папке является файлом для прошивки. Программатор можно использовать с этого же сайта:
